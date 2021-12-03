@@ -13,6 +13,6 @@ public class KlipperApp : IInitializable
     {
         // The properties is not populated in constructor so it needs to be in the
         // Initialize function.
-        _ha.CallService("persistent_notification", "create", data: new { message = HelloMessage, title = "Klipper app!" });
+        _ha.CallService("notify", "persistent_notification", data: new { message = Klipper_ip, title = "Klipper app!" });
     }
 }

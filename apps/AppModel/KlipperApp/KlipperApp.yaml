@@ -1,3 +1,4 @@
 Klipper_app:
-    Klipper_ip: 0.0.0.0
+    class: AppModel.KlipperApp
+    Klipper_ip: "0.0.0.0" 
     
